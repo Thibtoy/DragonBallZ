@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+}
+
+body, .cadre, .cadreIMG {
+	display: flex;
+	flex-direction: column;
+	justify-content: stretch;
+	align-items: center;
+}
+
+body {
+	width: 100%;
+	height: auto;
+}
+
+img {
+	height: 177.5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.cadre {
+	width: 185px;
+	height: 365px;
+	margin: 15px;
+	box-sizing: border-box;
+	background-color: rgba(64, 183, 104, 0.3);
+	border: 1.5px solid lightgrey;
+	border-radius: 10px;
+}
+
+.cadre>h1 {
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-radius: 10px 10px 0 0;
+}
+
+.cadreIMG {
+width: 100%;
+
+}
+
+.cadre>h2 {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: lightgrey;
+	text-align: center;
+}
+
+.cadre>p {
+	margin: 10px;
+}
